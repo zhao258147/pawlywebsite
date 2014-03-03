@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawly | Your Dog's Friend</title>
+    <link href = "css/bootstrap.css" rel = "stylesheet">
+    <link href = "css/style.css" rel = "stylesheet">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/App.js"></script>
+
+
+</head>
+
+<body>
+
+<div class="row" style="padding-left: 1em; padding-right: 1em; padding-top: 0.3em; padding-bottom: 0.4em;background-color: #ffffff">
+    <div class="col-xs-2">
+        <img src="img/pawlylogo@4x.png" width="133px" height="49px"/>
+    </div>
+    <div id="social-icons" class="col-xs-10" style="padding-top: 15px; padding-bottom: 10px">
+        <div style="float: right;">
+            <a href="https://twitter.com/share" class="twitter-share-button"
+               data-text="Play with your dog while away or at work, make it a reality by voting at http://startupbattle.agorize.com/en/juries/11/votables?votable_id=548!"
+               data-hashtags="pawlyapp,GSB2013">Tweet
+            </a>
+            <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script>
+        </div>
+
+        <div style="float: right; margin-right: 15px">
+            <div class="fb-like"
+                 data-href="https://www.facebook.com/pawlyapp"
+                 data-layout="button_count"
+                 data-action="like"
+                 data-show-faces="true"
+                 data-share="false">
+            </div>
+
+            <iframe name="f315e04a6" width="1000px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D40%23cb%3Df339100b48%26domain%3Dpawlyapp.com%26origin%3Dhttp%253A%252F%252Fpawlyapp.com%252Ffd44166f%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpawlyapp&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true" style="border: none; visibility: visible; width: 79px; height: 20px;" class=""></iframe>
+        </div>
+    </div>
+</div>
+
+<!--<div class = "navbar navbar-static-top" style="background-color: white">-->
+    <!--<div class = "container" style="padding-top: 10px;padding-bottom: 10px">-->
+
+        <!--<a href = "#" class = "navbar-brand" style="padding: 0px">-->
+            <!--<img src="img/pawly_logo.png" />-->
+        <!--</a>-->
+
+        <!--<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">-->
+            <!--<span class = "icon-bar"></span>-->
+            <!--<span class = "icon-bar"></span>-->
+            <!--<span class = "icon-bar"></span>-->
+        <!--</button>-->
+
+        <!--<div id="menu-navbar" class = "collapse navbar-collapse navHeaderCollapse">-->
+            <!--<ul class = "nav navbar-nav navbar-right">-->
+                <!--<li class = "active"><a href = "#" class = "menu-active">Home</a></li>-->
+                <!--<li><a href = "#">About</a></li>-->
+                <!--<li><a href = "#">Blog</a></li>-->
+                <!--<li><a href = "#">Contact</a></li>-->
+                <!--<li style="margin-top: 15px; margin-left: 15px">-->
+                    <!--<a href="https://twitter.com/share" class="twitter-share-button"-->
+                       <!--data-text="Play with your dog while away or at work, make it a reality by voting at http://startupbattle.agorize.com/en/juries/11/votables?votable_id=548!"-->
+                       <!--data-hashtags="pawlyapp,GSB2013">Tweet-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<script>-->
+                    <!--!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');-->
+                <!--</script>-->
+                <!--<li style="margin-top: 15px;">-->
+                    <!--<div class="fb-like"-->
+                         <!--data-href="https://www.facebook.com/pawlyapp"-->
+                         <!--data-layout="button_count"-->
+                         <!--data-action="like"-->
+                         <!--data-show-faces="true"-->
+                         <!--data-share="false">-->
+                    <!--</div>-->
+                    <!--<iframe name="f315e04a6" width="1000px" height="1000px" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like Facebook Social Plugin" src="http://www.facebook.com/plugins/like.php?action=like&amp;app_id=&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D40%23cb%3Df339100b48%26domain%3Dpawlyapp.com%26origin%3Dhttp%253A%252F%252Fpawlyapp.com%252Ffd44166f%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2Fpawlyapp&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=false&amp;show_faces=true" style="border: none; visibility: visible; width: 79px; height: 20px;" class=""></iframe>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<div class="row" style="padding-right: 2em; padding-left: 2em; padding-top: 10px; padding-bottom: 2px">
+    <div id="navbar-bottom-text">
+        <p id="navbar-winner" style="float: left; color: white; padding-right: 20px">
+            Winner of the 2013 Global Startup Battle powered by Google for Entrepreneurs
+        </p >
+        <p id="navbar-readmore" style="float: right; color: white">
+            <a style="color: white; margin-top: -2px" href="http://blog.up.co/2013/12/19/the-winner-of-global-startup-battles-champion-circle-powered-by-google-for-entrepreneurs-pawly/">
+                Read More
+            </a>
+            <i class="fa fa-caret-right" style="margin-top: 3px"></i>
+        </p>
+    </div>
+</div>
+
+<div id="imgHolder" style="width: 100%; min-height: 200px; padding: 20px">
+    <!--<img src="img/hero_image.png" width="100%" />    -->
+    <h2 id="tagline-title">A new way to play</h2>
+    <p id="tagline">Pawly enables pet owners to stay connected with their pets anywhere, anytime</p>
+    <a href="http://www.youtube.com/watch?v=yE5lNmY4jt0"><div style="margin-left: 35px; width: 80%; height: 20px">
+        <img id="playbutton" src="img/playbutton@4x.png" width="62px" height="49px" style="border-radius: 0px"/>
+        <p id="play-button-text" style="margin-left: 70px; color: white; margin-top: -35px">Watch the video</p>
+    </div></a>
+</div>
+
+<div style="height: 0px">
+
+
+</div>
+
+<div class="row" id="mentioned">
+    <div style=" width: 100%; background-color: #eaeae9; padding-left: 2em; padding-right: 2em; text-align: center;">
+        <a href="http://blog.up.co/2013/12/11/top-15-gsb-teams-champion-circle-powered-google-entrepreneurs/">
+            <img src="img/gsb_logo.png" style="vertical-align: middle; width:120px; display: inline-block; margin: 15px">
+        </a>
+        <a href="http://toronto.startupweekend.org/2013/11/25/maker-moms-take-first-place-at-startup-weekend-maker-edition-toronto/">
+            <img src="img/swt_logo.png" style="vertical-align: middle; width:120px; display: inline-block; margin: 15px">
+        </a>
+        <a href="http://www.canadianbusiness.com/technology-news/gallery-8-cool-things-we-saw-at-toronto-startup-weekend/?gallery_page=3#gallery_top">
+            <img src="img/canadian_business.png" style="vertical-align: middle; width:120px; display: inline-block; margin: 15px">
+        </a>
+        <a href="http://www.betakit.com/startup-weekend-maker-edition-showcases-products-that-marry-offline-with-online/">
+            <img src="img/betakit.png" style="vertical-align: middle; width:120px; display: inline-block; margin: 15px">
+        </a>
+        <a href="http://www.google.com/url?q=http%3A%2F%2Fwww.financialpost.com%2Fmarkets%2Fnews%2FMaker%2BMoms%2BTriumph%2BStartup%2BWeekend%2BToronto%2F9218441%2Fstory.html&sa=D&sntz=1&usg=AFQjCNEDHM2DdTf8h22tWhHH0-SYA0YltQ">
+            <img src="img/financial_post.png" style="vertical-align: middle; width:120px; display: inline-block; margin: 15px">
+        </a>
+        <a href="http://globalnews.ca/news/989563/maker-moms-take-top-prize-at-toronto-startup-weekend/">
+            <img src="img/GlobalNews.png" style="vertical-align: middle; width:120px; display: inline-block; margin: 15px">
+        </a>
+
+    </div>
+</div>
+
+
+<div class = "row value-prop-white">
+    <div id="value-prop-1-text" style="width: 50%; float: right; min-width: 250px" style="vertical-align: middle">
+        <div class="left-text">
+            <h2 >Connect when you are away</h2>
+            <p>Who said fetch has to stop when you're away? Give your pets treats when you miss them most.</p>
+        </div>
+    </div>
+
+    <div id="value-prop-1-img" style="width: 50%; float: right; min-width: 250px">
+        <div style="width: 250px; margin-left: auto; margin-right: auto">
+            <img src="img/value_prop_image1.png" width="250px" height="265px"/>
+        </div>
+    </div>
+
+</div>
+
+<div class = "row value-prop-grey">
+    <div class = "col-sm-6" style="min-width: 250px">
+        <div class="left-text">
+            <h2 >A new way to play</h2>
+            <p>Using the built-in microphone and speaker you can talk to your pet and play from any where. We've tested Pawly to ensure.</p>
+        </div>
+    </div>
+    <div id="value-prop-2-img" class = "col-sm-6">
+        <div style="width: 250px; margin-left: auto; margin-right: auto">
+            <img src="img/value_prop_image2.png" width="250px" height="245px"/>
+        </div>
+    </div>
+</div>
+
+<div id="last-value-prop" class = "row value-prop-white">
+    <div id="value-prop-3-text" style="width: 50%; float: right; min-width: 250px" style="vertical-align: middle">
+        <div class="left-text">
+            <h2>Share previous moments</h2>
+            <p>Capture the best moments with your pet through videos and photos and share them with family and friends.</p>
+        </div>
+    </div>
+    <div id="value-prop-3-img" style="width: 50%; float: right; min-width: 250px">
+        <div style="width: 250px; margin-left: auto; margin-right: auto">
+            <img src="img/value_prop_image3.png" width="250px" height="240px"/>
+        </div>
+    </div>
+</div>
+
+<div id="specs" class="row" style="padding:2em; background-color: #f8f8f8">
+    <div class = "col-sm-4">
+        <div style="width: 230px;margin-left: auto; margin-right: auto;  text-align: center">
+            <img src="img/Tech1.png">
+            <h4>Processing Unit</h4>
+            <p>Powered by Raspberry Pi</p>
+            <h4>Controller</h4>
+            <p>Webapp, Android, IOS</p>
+            <h4>Accessory Options</h4>
+            <p>Treat Dispenser</p>
+            <p>Laser Turret</p>
+            <p>Tennis Ball Projector</p>
+            <p>5V, 1A RS232 Breakout</p>
+        </div>
+    </div>
+    <div class = "col-sm-4">
+        <div style="width: 230px;margin-left: auto; margin-right: auto; text-align: center">
+            <img src="img/Tech2.png">
+            <h4>Hardware Specifications</h4>
+            <p>Length: 295mm</p>
+            <p>Width: 285mm</p>
+            <p>Height: 120mm</p>
+            <p>Wheelebase: 190mm</p>
+            <p>Track: 198mm</p>
+            <p>Weight: 4kg</p>
+            <p>Run time: 2h</p>
+            <p>Standby: 6.5h</p>
+        </div>
+    </div>
+    <div class = "col-sm-4">
+        <div style="width: 230px;margin-left: auto; margin-right: auto;  text-align: center">
+            <img src="img/Tech3.png">
+            <h4>Hardware Specifications</h4>
+            <p>Motors: Brushed DC</p>
+            <p>Drivetrain: Skid Steer</p>
+            <p>Payload: 1.2kg</p>
+            <p>Charging: Inductive Base Station</p>
+            <p>Camera: 720p, 150Degrees</p>
+            <p>Speed: 0.45m/s</p>
+        </div>
+    </div>
+</div>
+
+<div id="signup" class="row" role="navigation" >
+    <div class="col-sm-6">
+        <div id="signup-text">
+            <span>Be the first to get a Pawly!</span>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <form id="signup-form">
+            <input id="signup-input" type="text" name="email" placeholder="Enter your e-mail" />
+        </form>
+        <a href="#" id="input-button">
+            <i class="fa fa-caret-right"></i>
+        </a>
+        <div id="signup-response" style="display: none; color: white"></div>
+    </div>
+</div>
+
+<div class="row" style="padding: 15px; background-color: #ffffff">
+    <div class="col-xs-6">
+        <span style=" color: grey; font-size: 13px">Copyright &#169; 2013 Pawly. All Rights Reserved</span>
+    </div>
+    <div class="col-xs-6">
+        <a href="MAILTO:info@pawlyapp.com">
+            <img id="email_icon" src="img/email_icon@2x.png" style="float: right; margin-left: 5px">
+        </a>
+        <a href="http://www.youtube.com/watch?v=yE5lNmY4jt0">
+            <img id="youtube_icon" src="img/youtube_icon@2x.png" style="float: right; margin-left: 5px">
+        </a>
+        <a href="https://twitter.com/PawlyApp">
+            <img id="twitter_icon" src="img/twitter_icon@2x.png" style="float: right; margin-left: 5px">
+        </a>
+        <a href="https://www.facebook.com/pawlyapp">
+            <img id="facebook_icon" src="img/facebook_icon@2x.png" style="float: right; margin-left: 5px">
+        </a>
+    </div>
+</div>
+
+</body>
+
+<script>
+    $("#input-button").click(function() {
+        var url = "http://pawlyapp.com/submit-form.php"; // the script where you handle the form input.
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: $("#signup-form").serialize(), // serializes the form's elements.
+            success: function(data)
+            {
+                $("#signup-response").append(data);
+                $("#signup-form").slideUp();
+                 // show response from the php script.
+                $("#signup-response").css("display", "block");
+            }
+        });
+
+        return false; // avoid to execute the actual submit of the form.
+    });
+</script>
+</html>

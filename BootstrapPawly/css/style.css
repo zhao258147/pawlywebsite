@@ -1,0 +1,209 @@
+html {
+    /*background: url(../img/top_image.png) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    background-color: #e97f26;
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+h2, h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+li {
+    font-family: 'Nunito', sans-serif;
+}
+
+div{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+body{
+    background-color:transparent;
+}
+
+#social{
+}
+
+#second-title{
+    font-size: 1.5em;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+}
+
+#title-bar{
+    /*background-color: white;*/
+}
+
+#title-logo{
+    margin-left: 5%;
+}
+
+
+#videoframe{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.center-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-text{
+    /*width: 70%;*/
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+    float: left;
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+}
+
+.value-prop-white{
+    background-color: #FFFFFF;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.value-prop-grey{
+    background-color: #f8f8f8;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.img-center{
+    width: 70%;
+    margin: 0 auto;
+    min-width: 150px;
+    max-width: 300px;
+}
+
+
+#signup{
+    /*background-color: #FFFFFF;*/
+    background-color: #e97f26;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 1em; padding-right: 1em;
+    border-width:0px;
+}
+
+a{
+    color: grey;
+}
+
+.menu-active{
+    color: #e97f26;
+}
+
+.navbar-bottom{
+    padding: 15px;
+
+    background-color: #e97f26;
+}
+
+#tagline{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#tagline-title{
+    /*margin-top: -30%;*/
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #ffffff
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#signup-input{
+    border-radius: 3px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 230px;
+    padding: 5px;
+    padding-top: 6px;
+    padding-left: 25px;
+    font-size:1em;
+    height: 50px;
+    border: 0px;
+    font-weight: 200;
+    background-color: #ffffff;
+}
+
+#signup-text{
+    /*float: right;*/
+    color: white;
+    font-size: 18px;
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+}
+
+#input-button{
+    /*display: none;*/
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d3d3d3;
+    position: absolute;
+    top: 5px;
+    left: 210px;
+    z-index: 2;
+}
+
+#signup-form{
+    width: 230px;
+    /*margin-right: auto;*/
+    /*margin-left: auto;*/
+}
+
+#specs p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#imgHolder{
+    background-image: url(../img/hero_image.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
