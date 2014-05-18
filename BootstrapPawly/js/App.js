@@ -9,7 +9,7 @@ var navbar_top = 0;
 
 
 var adjustsize = function(windowwidth){
-    navbar_top = $("#last-value-prop").offset().top + $("#last-value-prop").height() - $(window).height() + $("#signup").height();
+    navbar_top = $("#bottom-item").offset().top + $("#bottom-item").height() - $(window).height() + $("#signup").height();
     console.log(navbar_top);
 
     if(windowwidth < 768){
@@ -18,6 +18,7 @@ var adjustsize = function(windowwidth){
         $("#value-prop-1-img").css('width', '100%');
         $("#value-prop-3-text").css('width', '100%');
         $("#value-prop-3-img").css('width', '100%');
+
     } else {
         $("#signup-text").css('float', 'right');
         $("#value-prop-1-text").css('width', '50%');
@@ -30,12 +31,13 @@ var adjustsize = function(windowwidth){
         $("#social-icons").css("display", "none");
     }
 
-    var titlesize = 14 + (windowwidth-300)*0.04;
+    var titlesize = 15 + (windowwidth-300)*0.03;
     $("#tagline-title").css('font-size', titlesize+"px");
-    var textsize = 12 + (windowwidth-300)*0.02;
+    var textsize = 13 + (windowwidth-300)*0.01;
     $("#tagline").css('font-size', textsize+"px");
     $(".left-text h2").css('font-size', titlesize+"px");
     $(".left-text p").css('font-size', textsize+"px");
+    $("#play-button-text").css('font-size', (textsize-2) +"px");
 
     var heroHeight = 200 + (windowwidth-300)*(150/725);
     $("#imgHolder").css('height', heroHeight);
@@ -46,42 +48,41 @@ var adjustsize = function(windowwidth){
 //        $("#navbar-bottom-text").css('height', '82px');
         $("#tagline").css('width', '90%');
         $("#social-icons").css("display", "none");
-        $("#playbutton").css('width', '30px');
-        $("#playbutton").css('height', '24px');
-        $("#play-button-text").css('margin-left', '50px');
-        $("#play-button-text").css('margin-top', '-25px');
+
+//        $("#play-button-text").css('margin-left', '50px');
+//        $("#play-button-text").css('margin-top', '-25px');
 
     } else if(windowwidth >= 400 && windowwidth < 597){
         $("#navbar-winner").css('font-size', '14px');
 //        $("#navbar-bottom-text").css('height', '62px');
         $("#tagline").css('width', '80%');
         $("#social-icons").css("display", "block");
-        $("#playbutton").css('width', '36px');
-        $("#playbutton").css('height', '30px');
-        $("#play-button-text").css('margin-left', '50px');
-        $("#play-button-text").css('margin-top', '-27px');
+//        $("#playbutton").css('width', '36px');
+//        $("#playbutton").css('height', '30px');
+//        $("#play-button-text").css('margin-left', '50px');
+//        $("#play-button-text").css('margin-top', '-27px');
     } else if(windowwidth >= 597 && windowwidth < 685){
         $("#social-icons").css("display", "block");
         $("#navbar-winner").css('font-size', '18px');
 //        $("#navbar-bottom-text").css('height', '42px');
         $("#tagline").css('width', '60%');
-        $("#playbutton").css('width', '36px');
-        $("#playbutton").css('height', '30px');
-        $("#play-button-text").css('margin-left', '70px');
-        $("#play-button-text").css('margin-top', '-35px');
+//        $("#playbutton").css('width', '36px');
+//        $("#playbutton").css('height', '30px');
+//        $("#play-button-text").css('margin-left', '70px');
+//        $("#play-button-text").css('margin-top', '-35px');
     } else if(windowwidth >= 685 && windowwidth < 833){
         $("#navbar-readmore").css('float', 'left');
         $("#navbar-winner").css('font-size', '18px');
         $("#tagline").css('width', '60%');
-        $("#playbutton").css('width', '58px');
-        $("#playbutton").css('height', '42px');
+//        $("#playbutton").css('width', '58px');
+//        $("#playbutton").css('height', '42px');
     } else {
         $("#navbar-readmore").css('float', 'right');
         $("#tagline-title").css('letter-spacing', '-0.25px');
 //        $("#navbar-bottom-text").css('height', '22px');
         $("#tagline").css('width', '50%');
-        $("#playbutton").css('width', '62px');
-        $("#playbutton").css('height', '49px');
+//        $("#playbutton").css('width', '62px');
+//        $("#playbutton").css('height', '49px');
     }
 }
 

@@ -140,7 +140,8 @@ a{
     margin-top: 20px;
     padding-left: 20px;
     font-size: 14px;
-    color: #ffffff
+    color: #ffffff;
+    float: right;
 }
 
 .row{
@@ -206,4 +207,83 @@ a{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media(max-width: 768px) and (min-width: 0px){
+    .member-image{
+        height: 120px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .member-info{
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .member-name{
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nav-twitter{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    #nav-facebook{
+        margin-top: 12px;
+        margin-left: 15px;
+    }
+
+    #playbutton{
+        width: 50px;
+        height: 38px;
+        float: right;
+        border-radius: 0px
+    }
+}
+
+@media(min-width: 768px){
+    .member-image{
+        height: 120px;
+        float: right;
+    }
+
+    .member-info{
+        float: left;
+        width: 100%;
+    }
+
+    .member-name{
+        float: left;
+        width: 100%;
+    }
+
+    #nav-twitter{
+        margin-top: 15px;
+        margin-left: 13px;
+    }
+
+    #nav-facebook{
+        margin-left: -5px;
+        margin-top: 15px;
+    }
+
+    #playbutton{
+        width: 62px;
+        height: 49px;
+        float: right;
+        border-radius: 0px
+    }
+}
+
+
+
+
+.member{
+    padding-bottom: 20px;
 }
