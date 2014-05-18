@@ -63,6 +63,7 @@
             <ul class = "nav navbar-nav navbar-right">
                 <li class = "active"><a href = "#" class = "menu-active">Home</a></li>
                 <li><a href = "#meet-pawly">About</a></li>
+                <li><a href = "#contact-us">Contact Us</a></li>
                 <li><a href = "http://pawlyapp.blogspot.ca/" target="_blank">Blog</a></li>
                 <li id="nav-twitter">
                     <a href="https://twitter.com/share" class="twitter-share-button"
@@ -88,6 +89,23 @@
     </div>
 </div>
 
+<div id="signup-modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!--<div class="modal-header">-->
+                <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                <!--<h4 class="modal-title"></h4>-->
+            <!--</div>-->
+            <div class="modal-body">
+                <p>Thank you for signing up with Pawly!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <div class="row" style="padding-right: 2em; padding-left: 2em; padding-top: 10px; padding-bottom: 2px">
     <div id="navbar-bottom-text">
         <p id="navbar-winner" style="float: left; color: white; padding-right: 20px">
@@ -112,7 +130,7 @@
         </tr>
         <tr>
             <td>
-                <a target="_blank" href="http://www.youtube.com/watch?v=yE5lNmY4jt0"><div style="margin-left: 35px; width: 250px; height: 50px; float: right">
+                <a target="_blank" href="http://www.youtube.com/watch?v=yE5lNmY4jt0"><div style="margin-left: 35px; margin-top: 15px; width: 250px; height: 50px; float: right">
                     <img id="playbutton" src="img/playbutton@4x.png" />
                     <span id="play-button-text" style="color: white; float: right; margin-top: 10px; margin-right: 5px">Watch the video</span>
                 </div></a>
@@ -153,7 +171,7 @@
     </div>
 </div>
 
-<div id="meet-pawly" class = "row value-prop-white">
+<div id="meet-pawly" class = "row value-prop-white" style="padding-top: 40px">
     <div class = "col-sm-6" style="min-width: 250px">
         <div class="left-text">
             <h2>Meet Pawly</h2>
@@ -161,8 +179,8 @@
         </div>
     </div>
     <div id="value-prop-0-img" class = "col-sm-6">
-        <div style="width: 250px; margin-left: auto; margin-right: auto">
-            <img src="img/dogNpawly.png" width="295px" height="250px"/>
+        <div style="width: 350px; margin-left: auto; margin-right: auto">
+            <img src="img/dogNpawly.png" width="350px" height="250px"/>
         </div>
     </div>
 </div>
@@ -171,13 +189,13 @@
     <div id="value-prop-1-text" style="width: 50%; float: right; min-width: 250px" style="vertical-align: middle">
         <div class="left-text">
             <h2 >Connect when you are away</h2>
-            <p>Who said fetch has to stop when you're away? Give your pets treats when you miss them most.</p>
+            <p>Who said fetch has to stop when you're away? Give your pets treats when you miss them most. Using the built in microphone and speakers you can talk to your pet and play from anywhere.</p>
         </div>
     </div>
 
     <div id="value-prop-1-img" style="width: 50%; float: right; min-width: 250px">
-        <div style="width: 250px; margin-left: auto; margin-right: auto">
-            <img src="img/value_prop_image1.png" width="230px" height="270px"/>
+        <div style="width: 300px; height: 320px; margin-left: auto; margin-right: auto">
+            <img src="img/value_prop_image1.png" width="270px" height="320px"/>
         </div>
     </div>
 
@@ -240,76 +258,85 @@
     </div>
 </div>
 
-<div id="the-team" class = "row value-prop-white">
-    <h2>The Team</h2>
-</div>
-
-<div class = "row value-prop-white member">
-    <div class="col-sm-6">
-        <div class="member-image">
-            <img src="img/Mayer.jpg" class="member-image">
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <h4 class="member-name">Mayer Elhara</h4>
-        <p class="member-info">CEO</p>
-    </div>
-</div>
-
-<div class = "row value-prop-white member">
-    <div class="col-sm-3">
-        <div class="member-image">
-            <img src="img/Octavio.jpg" class="member-image">
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <h4 class="member-name">Octavio Ponce</h4>
-        <p class="member-info">CTO</p>
-    </div>
-    <div class="col-sm-3">
-        <div class="member-image">
-            <img src="img/Robbie.jpg" class="member-image">
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <h4 class="member-name">Robbie Edwards</h4>
-        <p class="member-info">Mechatronics Engineer</p>
-    </div>
+<div id="contact-us" class = "row value-prop-white">
+    <h2>Contact Us</h2>
 </div>
 
 <div id="bottom-item" class = "row value-prop-white member">
-    <div class="col-sm-3">
-        <div class="member-image">
-            <img src="img/Josh.jpg" class="member-image">
-        </div>
-    </div>
-    <div class="col-sm-3">
-        <h4 class="member-name">Josh Allen</h4>
-        <p class="member-info">Software Engineer</p>
-    </div>
-    <div class="col-sm-3">
-        <div class="member-image">
-            <img src="img/Lucas.jpg" class="member-image">
-        </div>
-
-    </div>
-    <div class="col-sm-3">
-        <h4 class="member-name">Yunan Zhao</h4>
-        <p class="member-info">Software Engineer</p>
-    </div>
+    <p>Pawly is headquartered in Toronto, Canada</p>
+    <p>For further inquiries, please contact us at <a href="MAILTO:info@pawlyapp.com">info@pawlyapp.com</a></p>
 </div>
+
+<!--<div id="the-team" class = "row value-prop-white">-->
+    <!--<h2>The Team</h2>-->
+<!--</div>-->
+
+<!--<div class = "row value-prop-white member">-->
+    <!--<div class="col-sm-6">-->
+        <!--<div class="member-image">-->
+            <!--<img src="img/Mayer.jpg" class="member-image">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-6">-->
+        <!--<h4 class="member-name">Mayer Elharar</h4>-->
+        <!--<p class="member-info">CEO</p>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div class = "row value-prop-white member">-->
+    <!--<div class="col-sm-3">-->
+        <!--<div class="member-image">-->
+            <!--<img src="img/Octavio.jpg" class="member-image">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-3">-->
+        <!--<h4 class="member-name">Octavio Ponce</h4>-->
+        <!--<p class="member-info">CTO</p>-->
+    <!--</div>-->
+    <!--<div class="col-sm-3">-->
+        <!--<div class="member-image">-->
+            <!--<img src="img/Robbie.jpg" class="member-image">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-3">-->
+        <!--<h4 class="member-name">Robbie Edwards</h4>-->
+        <!--<p class="member-info">Mechatronics Engineer</p>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<div id="bottom-item" class = "row value-prop-white member">-->
+    <!--<div class="col-sm-3">-->
+        <!--<div class="member-image">-->
+            <!--<img src="img/Josh.jpg" class="member-image">-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="col-sm-3">-->
+        <!--<h4 class="member-name">Josh Allen</h4>-->
+        <!--<p class="member-info">Software Engineer</p>-->
+    <!--</div>-->
+    <!--<div class="col-sm-3">-->
+        <!--<div class="member-image">-->
+            <!--<img src="img/Lucas.jpg" class="member-image">-->
+        <!--</div>-->
+
+    <!--</div>-->
+    <!--<div class="col-sm-3">-->
+        <!--<h4 class="member-name">Yunan Zhao</h4>-->
+        <!--<p class="member-info">Software Engineer</p>-->
+    <!--</div>-->
+<!--</div>-->
 
 <div id="signup" class="row" role="navigation" >
     <div class="col-sm-6">
         <div id="signup-text">
-            <span>Be the first to get a Pawly!</span>
+            <span id="signupspan">Be the first to get a Pawly!</span>
         </div>
     </div>
     <div class="col-sm-6">
         <form id="signup-form">
             <input id="signup-input" type="text" name="email" placeholder="Enter your e-mail" />
         </form>
-        <a href="#" id="input-button">
+        <a href="" id="input-button">
             <i class="fa fa-caret-right"></i>
         </a>
         <div id="signup-response" style="display: none; color: white"></div>
@@ -344,19 +371,21 @@
 
 <script>
     $("#input-button").click(function() {
+        $("#signup-modal").modal('show');
+
         var url = "http://pawlyapp.com/submit-form.php"; // the script where you handle the form input.
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: $("#signup-form").serialize(), // serializes the form's elements.
-            success: function(data)
-            {
-                $("#signup-response").append(data);
-                $("#signup-form").slideUp();
-                 // show response from the php script.
-                $("#signup-response").css("display", "block");
-            }
-        });
+//        $.ajax({
+//            type: "POST",
+//            url: url,
+//            data: $("#signup-form").serialize(), // serializes the form's elements.
+//            success: function(data)
+//            {
+//                $("#signup-signupspan").innerHTML("Thank you for signing up with Pawly");
+////                $("#signup-form").slideUp();
+//                 // show response from the php script.
+////                $("#signup-response").css("display", "block");
+//            }
+//        });
 
         return false; // avoid to execute the actual submit of the form.
     });
